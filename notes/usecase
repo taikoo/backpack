@@ -1,0 +1,64 @@
+backpack - a store and forward mesh network:
+--------------------------------------------
+
+jim wishes to send a file to alice. This is difficult because:
+
+	- alice does not have an easy way to receive data, mainly due to being
+	  behind a NAT.
+	- jim does not have an explicit method for transmitting data to alice.
+	  His options are currently limited to:
+		* email (no larger than 50MB, and inefficient)
+		* sms (no)
+		* a file sharing site (a pain)
+		* a public dropbox (easy, except now we have to share a
+		  dropbox and requires an internet connection). 
+
+
+Bobby wishes to distribute his homemade album to all his friends. He selects
+the album from his music folder, who to send it to, and waits.
+
+You buy an album at the store, they give you a cd, but you don't even own a cd
+player. Now you have to go home and download the album, or rip it yourself.
+Luckily, the store is hip to our app and just transfers the FLACs straight to
+your phone.
+
+It overcomes this problem of people coming together and wanting to share
+digital stuff. We can copy it onto flash drives (oops I forgot mine...), but
+then you have to copy it twice and it's a bunch of labor.
+
+I want to play my friend starcraft on our LAN. He could download it, but it's
+like 1G including brood war and our internet still isn't that great.  This gets
+worse when we're talking newer games, like team fortress 2 is about a 10G
+download.
+
+Are there any apps which allow you to say "send these files to this person"?
+
+The Dad angle (doesn't have a data plan):
+
+	- It's a great way to share files with all your friends!
+	- If you ever want to send me a picture, take it, then choose
+	  "share", click the backpack and then my name. Same for videos.
+
+
+WLANs have much greater symmetrical bandwidth than home dsl. With newer
+standards such as 802.11n, throughput has even surpassed 100Mb ethernet.
+
+It's for sharing:
+
+	- movies
+	- music
+	- pictures
+	- warez
+
+
+10,000 people at a concert. Most of them are taking pictures, but there is no
+easy way to assemble this collage. Luckily backpack supports a "stream" of
+data, which is sort of a shared virtual drive.
+
+Go to the library, check out movies and they're on your phone. Library doesn't
+have to have servers running streaming movies.
+
+Passive aggressive blogging. Share links with strangers. Local tweeting.
+"streams" are the new BSS.  Subscribe to people around you. Shared streams.
+
+After a meeting, everyone's todo list is automatically updated.
