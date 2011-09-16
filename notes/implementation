@@ -1,0 +1,50 @@
+backpack
+========
+
+backpack is (currently) an Android application service, which facilitates the
+sharing and dissemination of files over LANs (for now) using a gossip protocol.
+backpack handles all event registration and socket programming etc. and
+provides a single API to client applications.
+
+An application can request backpack to:
+
+	- return a list of available streams.
+	- create a new stream.
+	- share an item with a named stream.
+
+backpack in turn handles:
+
+	- the creation and destruction of streams.
+	- the backpack protocol
+	- data tx and rx
+	- data encryption
+	- peer authentication (?)
+
+Examples of user applications:
+
+	- file sharing
+	- community newsfeed
+	- distributed file system
+
+Definitions:
+------------
+
+	- "item" - an object to share. All items are attached to one or more streams.
+	- "stream" - channel this item is to be shared on.
+
+Features:
+---------
+
+Architecture:
+-------------
+
+backpack API:
+-------------
+
+backpack protocol:
+------------------ 
+
+See also:
+---------
+
+multicast HOWTO: http://tldp.org/HOWTO/Multicast-HOWTO-1.html
