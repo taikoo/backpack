@@ -23,28 +23,6 @@ player. Now you have to go home and download the album, or rip it yourself.
 Luckily, the store is hip to our app and just transfers the FLACs straight to
 your phone.
 
-Are there any apps which allow you to say "send these files to this person"?
-	
-	- bump (although it requires an internet connection)
-	- aerofs comes close, but you only sync with yourself
-
-The Dad angle (doesn't have a data plan):
-
-	- It's a great way to share files with all your friends!
-	- If you ever want to send me a picture, take it, then choose
-	  "share", click the backpack and then my name. Same for videos.
-
-WLANs have much greater symmetrical bandwidth than home dsl. With newer
-standards such as 802.11n, throughput has even surpassed 100Mb ethernet.
-
-It's for sharing:
-
-	- movies
-	- music
-	- pictures
-	- warez
-	- stories
-
 10,000 people at a concert. Most of them are taking pictures, but there is no
 easy way to assemble this collage. Luckily backpack supports a "stream" of
 data, which is sort of a shared virtual drive.
@@ -59,3 +37,38 @@ without internet.
 After a meeting, everyone's todo list is automatically updated.
 
 Disseminate news through your family automatically.
+
+The Dad angle (doesn't have a data plan):
+
+	- It's a great way to share files with all your friends!
+	- If you ever want to send me a picture, take it, then choose
+	  "share", click the backpack and then my name. Same for videos.
+
+
+Status Quo:
+-----------
+
+*** Why not use bittorrent as the underlying transmission protocol?
+	
+	This could work. We want "streams" to be dynamic, so maybe "items" are
+	actually torrents. Frostwire uses something called Vuze as their
+	bittorrent library, and netty for sockets.
+
+File sharing apps:
+	
+	- bump (although it requires an internet connection)
+	- aerofs comes close, but you only sync with yourself
+	- frostwire, bittorrent based.
+
+WLANs have much greater symmetrical bandwidth than home dsl. With newer
+standards such as 802.11n, throughput has even surpassed 100Mb ethernet.
+
+It's for sharing:
+
+	- movies
+	- music
+	- pictures
+	- warez
+	- stories
+
+

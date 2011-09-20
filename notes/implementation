@@ -1,6 +1,9 @@
 backpack
 ========
 
+Overview:
+---------
+
 backpack is (currently) an Android application service, which facilitates the
 sharing and dissemination of files over LANs (for now) using a gossip protocol.
 backpack handles all event registration and socket programming etc. and
@@ -44,7 +47,12 @@ backpack API:
 backpack protocol:
 ------------------ 
 
+A stream contains a list of items belonging to this stream. 
+
 See also:
 ---------
 
 multicast HOWTO: http://tldp.org/HOWTO/Multicast-HOWTO-1.html
+Frostwire: http://frostwire.wordpress.com/
+Netty: http://www.jboss.org/netty
+Vuze: 
